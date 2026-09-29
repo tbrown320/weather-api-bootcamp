@@ -1,5 +1,7 @@
 //create a variable for our API key
-const api_key = '4695e31436b040c4875144610262209'
+import { API_KEY } from "./config.js";
+
+const api_key = API_KEY;
 
 //add event listener to 'get weather' button so we can create function
 
